@@ -1,0 +1,367 @@
+---
+title: "TEP_Exercicio2"
+author: "Claudio Resende"
+date: "06/05/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+require(tidyverse)
+require(RColorBrewer)
+require(openxlsx)
+require(knitr)
+require(kableExtra)
+
+options(scipen = 999)
+
+setwd("C:/Users/Claudio/OneDrive/CienciaDados/EstatisticaPredicao/Bases")
+cardio <- read.xlsx("DoencaCardiacaRegLog.xlsx")
+colnames(cardio) = c("id",
+                     "idade",
+                     "sexo",
+                     "IMC",
+                     "ccintura",
+                     "cquadril",
+                     "freqCardiaca",
+                     "fumo",
+                     "ativFisica",
+                     "stress",
+                     "pDiastolica",
+                     "doencaCardiaca")
+
+cardio$sexo <- as.factor(cardio$sexo)
+cardio$fumo <- as.factor(cardio$fumo)
+cardio$stress <- as.factor(cardio$stress)
+cardio$doencaCardiaca <- as.factor(cardio$doencaCardiaca)
+
+```
+> PARTE I
+
+# Situação problema 1
+**Um administrador do ramo da saúde deseja estimar a probabilidade de um determinado paciente ter problemas relacionados ao coração. Para isso coletou uma amostra de seu banco de dados e resgatou pacientes que em algum momento, tiveram algum problema cardíaco. O objetivo é criar um modelo que pudesse indicar a probabilidade de um paciente vir a ter problemas cardíacos.**  
+  
+
+## Hipóteses
+Em vista dessa situação, um banco de dados foi criado com informações que supostamente estariam relacionadas com o problema.
+
+* ID: Identificação do paciente 
+* Idade: Idade em anos do paciente
+* Sexo: sexo do paciente
+* IMC: Índice de massa corpórea do paciente
+* Ccintura: circunferência da cintura (cm)
+* Cquadril: circunferência do quadril (cm)
+* frqCardiaca: frequência cardíaca (batimentos por minuto)
+* fumo: Fuma :sim =1 ; não = 0
+* atvFisica: frequência semanal de atividade física
+* stress: Nível de Stress = escala de 1 (mínimo) a 4 (máximo) 
+* pdiasto: Pressão diastólica
+* Doença Card: Problemas cardíacos (sim = 1 , não = 0)
+
+
+## Análise
+
+### I. Classifique cada varável envolvida no problema
+
+* Idade: quantitativa discreta
+* Sexo: qualitativa nominal
+* IMC: quantitativa contínua
+* Circunferência da cintura: quantitativa discreta
+* Circunferência do quadril: quantitativa discreta
+* Frequência cardíaca: quantitativa discreta
+* Fumo: qualitativa ordinal
+* Atividade física: quantitativa discreta
+* Stress: qualitativa ordinal
+* Pressão diastólica: quantitativa contínua
+* Doença Cardíaca: qualitativa ordinal
+
+
+### II. Realize uma análise descritiva para cada variável
+
+#### Idade
+
+```{r, echo=FALSE}
+summary(cardio$idade)
+```
+
+```{r, echo=TRUE}
+ggplot(cardio, aes(x = idade)) +
+        geom_histogram(breaks = seq(min(cardio$idade), max(cardio$idade), by = 2),
+                       col = "white",
+                       alpha = 0.8) + 
+        labs(title = "Histograma de idade",
+             x = "", y = "") + 
+        theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+              legend.text = element_text(size = 11),
+              axis.text.x = element_text(size = 11, vjust = 0),axis.title = element_text(hjust = 0.5))
+
+
+```
+
+#### Sexo
+
+```{r, echo=FALSE}
+summary(cardio$sexo)
+```
+
+```{r, echo=TRUE}
+cardio %>% 
+     group_by(sexo) %>% summarise(Total = n()) %>% 
+     mutate("%" = round(Total/sum(Total), digits = 3)*100) %>% 
+     ggplot(aes(x = sexo, y = Total, fill = sexo, label = paste0(sexo,"\n", Total," (", `%`, "%)"))) +
+     geom_col() + 
+     labs(title = "Sexo",
+          x = "", y = "") + 
+     geom_label(aes(y = Total), colour = "white", fontface = "bold", position = position_stack(vjust = 0.90)) +
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+           legend.text = element_text(size = 11), axis.text.x = element_blank(),
+           axis.ticks = element_blank(), legend.position = "none")
+
+```
+
+
+#### IMC
+
+```{r, echo=FALSE}
+summary(cardio$IMC)
+```
+
+```{r, echo=TRUE}
+ggplot(cardio, aes(x = IMC)) +
+     geom_histogram(breaks = seq(min(cardio$IMC), max(cardio$IMC), by=2),
+                    col = "white",
+                    alpha = 1) + 
+     labs(title = "Histograma de IMC",
+          x = "", y = "") + 
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17, face = "bold"),
+           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11),
+           axis.ticks = element_blank())
+
+```
+
+
+#### Circunferência da cintura
+
+```{r, echo=FALSE}
+summary(cardio$ccintura)
+```
+
+```{r, echo=TRUE}
+ggplot(cardio, aes(x = IMC)) +
+     geom_histogram(breaks = seq(16, 45, by=2),
+                    col = "white",
+                    alpha = 1) + 
+     labs(title = "Histograma de IMC",
+          x = "", y = "") + 
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17, face = "bold"),
+           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11),
+           axis.ticks = element_blank())
+
+```
+
+
+#### Circunferência do quadril
+
+```{r, echo=FALSE}
+summary(cardio$cquadril)
+```
+
+```{r, echo=TRUE}
+ggplot(cardio, aes(x = cquadril)) +
+     geom_histogram(breaks = seq(70, 132, by=4),
+                    col = "white",
+                    alpha = 1) + 
+     labs(title = "Histograma de cincunferência do quadril",
+          x = "Cincunferência do quadril", y = "Frequência") + 
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17, face = "bold"),
+           axis.text = element_text(size = 11), axis.title = element_text(size = 13),
+           axis.ticks = element_blank())
+
+```
+
+
+#### Frequência cardíaca
+
+```{r, echo=FALSE}
+summary(cardio$freqCardiaca)
+```
+
+```{r, echo=TRUE}
+ggplot(cardio, aes(x = freqCardiaca)) +
+     geom_histogram(breaks = seq(47, 122, by=4),
+                    col = "white",
+                    alpha = 1) + 
+     labs(title = "Histograma de frequência cardíaca",
+          x = "Frequência cardíaca", y = "Frequência") + 
+        theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17, face = "bold"),
+              axis.text = element_text(size = 11), axis.title = element_text(size = 13),
+              axis.ticks = element_blank())
+```
+
+
+#### Atividade física
+
+```{r, echo=FALSE}
+summary(cardio$ativFisica)
+```
+
+```{r, echo=TRUE}
+cardio %>% 
+     group_by(ativFisica) %>% 
+     summarise(Total = n()) %>% 
+     mutate("%" = round(Total/sum(Total), digits = 3)*100) %>% 
+     ggplot(aes(x = ativFisica, y = Total, fill = ativFisica, label = paste0(`%`,"%"))) +
+     geom_col() + 
+     labs(title = "Atividade física",
+          x = "Dias por semana", y = "Frequência") + 
+     geom_label(aes(y = `%`), colour = "white", fontface = "bold", position = position_stack(vjust = 2)) +
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11),
+           axis.ticks = element_blank(), legend.position = "none")
+```
+
+
+#### Fumo
+
+```{r, echo=FALSE}
+summary(cardio$fumo)
+```
+
+```{r, echo=TRUE}
+cardio %>% 
+     group_by(fumo) %>% 
+     summarise(Total = n()) %>% 
+     mutate("%" = round(Total/sum(Total), digits = 3)*100,
+            fumo = ifelse(fumo == 0, "Não fuma", "Fuma")) %>% 
+     ggplot(aes(x = as.factor(fumo), y = Total, fill = fumo, label = paste0(`%`,"%"))) +
+     geom_col() + 
+     labs(title = "Fumo",
+          x = "", y = "Frequência") + 
+     geom_label(aes(y = `%`), colour = "white", fontface = "bold", position = position_stack(vjust = 0.5)) +
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11),
+           legend.position = "none")
+```
+
+#### Estresse
+
+```{r, echo=FALSE}
+summary(cardio$stress)
+```
+
+```{r, echo=TRUE}
+cardio %>% 
+     group_by(stress) %>% 
+     summarise(Total = n()) %>% 
+     mutate("%" = round(Total/sum(Total), digits = 3)*100) %>% 
+     ggplot(aes(x = as.factor(stress), y = Total, fill = stress, label = paste0(`%`,"%"))) +
+     geom_col() + 
+     labs(title = "Níveis de stress",
+          x = "", y = "Frequência") + 
+     geom_label(aes(y = `%`), label.padding = unit(0.2, "lines"), label.r = unit(0.15, "lines"),
+                colour = "white", fontface = "bold", position = position_stack(vjust = 2)) +
+     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11),
+           axis.ticks = element_blank(), legend.position = "none")
+```
+
+
+
+```{r, echo=FALSE}
+knitr::kable(
+addmargins(table(cardio$sexo, cardio$doencaCardiaca)
+)) %>%
+  kable_styling(full_width = F)
+```
+
+### III. Construa uma tabela de frequência cruzada entre doença  cardíaca versus sexo, calcule e interprete a razão de chances.  
+
+* Chance de mulheres desenvolverem doença cardíaca: 95/166 = 0,42
+* Chance de homens desenvolverem doença cardíaca: 0,79
+
+
+> Razão de chances: 0,79/0,42 = 1,88
+Homens têm 1,88 vezes mais chances de desenvolver doença cardíaca do que mulheres.
+
+
+### IV. Construa um modelo de regressão logística com todas as variáveis.
+
+#### Analise a tabela ANOVA
+
+
+
+
+#### Determine quais as variáveis são significativas.  
+
+
+
+
+#### Interprete os parâmetros do modelo.  
+
+
+
+
+#### Escreva o modelo ajustado.
+```{r, echo=FALSE}
+modelo2 <- glm(cardio$doencaCardiaca ~ cardio$sexo + cardio$stress + cardio$pDiastolica, family = binomial(link = "logit"), model = TRUE)
+
+```
+
+$$Y = 0,00000038 + 4,044(masculino) + 0,26(stress1) + 0,88(stress2) + 0,26(stress3) + 0,31(stress4) + 0,21(pdiastolica)$$  
+
+***
+
+#### Interprete os parâmetros de qualidade de ajuste.
+
+
+
+
+#### Realize a predição da doença cardíaca (ponto de corte igual a 0,5) e avalie a qualidade da predição.
+
+> Predição com ponto de corte = 0,5
+
+```{r, echo=FALSE}
+cardio$ajustes <- modelo2[["fitted.values"]]
+
+cardio$ajustesRecod1 <- ifelse(cardio$ajustes < 0.5, 0, 1)
+kable(addmargins(table(cardio$ajustesRecod1, cardio$doencaCardiaca))) %>%
+  kable_styling(full_width = F)
+
+```
+
+
+* Especificidade (verdadeiros negativos): 0,81
+* Sensibilidade (verdadeiros positivos): 0,85
+
+O modelo ajustado possui boa capacidade de predição, tendo alcançado 81% de especificidade e 85% de sensibilidade.
+
+
+> Predição com ponto de corte = 0,6
+
+```{r, echo=FALSE}
+cardio$ajustesRecod2 <- ifelse(cardio$ajustes < 0.6, 0, 1)
+kable(addmargins(table(cardio$ajustesRecod2, cardio$doencaCardiaca)))%>%
+  kable_styling(full_width = F)
+
+```
+
+
+
+
+> Predição com ponto de corte = 0,7
+
+```{r, echo=FALSE}
+cardio$ajustesRecod3 <- ifelse(cardio$ajustes < 0.7, 0, 1)
+kable(addmargins(table(cardio$ajustesRecod3, cardio$doencaCardiaca))) %>%
+  kable_styling(full_width = F)
+```
+
+
+
+
+
+
+

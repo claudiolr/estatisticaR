@@ -1,0 +1,212 @@
+ID;ID da hospedagem;Nome da hospedagem;ID do Hospede;Nome do Hospede;Grupo de vizinhança;latitude;longitude;Tipo de hospedagem;Preço;locação mínima;Número de avaliações;Taxa mesal de ocupação;Número máximo de hóspedes;Disponibilidade anual
+1;2539;Clean & quiet apt home by the park;2787;John;Brooklyn;4064749;-7397237;Quarto Privativo;125;1;9;0,21;6;365
+2;2595;Skylit Midtown Castle;2845;Jennifer;Manhattan;4075362;-7398377;Ap/Casa inteira;79;1;45;0,38;2;355
+6;5099;Large Cozy 1 BR Apartment In Midtown East;7322;Chris;Manhattan;4074767;-73975;Ap/Casa inteira;60;3;74;0,59;1;129
+23;8025;CBG Helps Haiti Room#2.5;22486;Lisel;Brooklyn;4067989;-7397798;Quarto Privativo;80;1;39;0,37;6;364
+24;8110;CBG Helps Haiti Rm #2;22486;Lisel;Brooklyn;4068001;-7397865;Quarto Privativo;60;2;71;0,61;6;304
+25;8490;MAISON DES SIRENES1,bohemian apartment;25183;Nathalie;Brooklyn;4068371;-7394028;Ap/Casa inteira;50;2;88;0,73;2;233
+28;9357;Midtown Pied-a-terre;30193;Tommi;Manhattan;4076715;-7398533;Ap/Casa inteira;70;10;58;0,49;1;75
+30;9657;Modern 1 BR / NYC / EAST VILLAGE;21904;Dana;Manhattan;407292;-7398542;Ap/Casa inteira;97;14;29;0,24;1;67
+35;10452;Large B&B Style rooms;35935;Angela;Brooklyn;406831;-7395473;Quarto Privativo;60;1;74;0,66;2;269
+42;12299;Beautiful Sunny Park Slope Brooklyn;47610;Abdul;Brooklyn;4066278;-7397966;Ap/Casa inteira;110;3;15;0,39;1;345
+43;12303;1bdr w private bath. in lofty apt;47618;Yolande;Brooklyn;4069673;-7397584;Quarto Privativo;99;7;25;0,23;1;311
+44;12318;West Side Retreat;16800;Cyn;Manhattan;4079009;-7397927;Quarto Privativo;55;4;81;0,69;1;273
+45;12343;BEST BET IN HARLEM;47727;Earl;Manhattan;4081175;-7394478;Ap/Casa inteira;50;7;97;0,84;1;309
+48;12940;Charming Brownstone 3 - Near PRATT;50148;Adreinne;Brooklyn;4068111;-7395591;Ap/Casa inteira;69;7;61;0,52;1;265
+52;14287;Cozy 1BD on Central Park West in New York City;56094;Joya;Manhattan;4078635;-7397008;Ap/Casa inteira;60;2;73;0,63;1;302
+53;14290;* ORIGINAL BROOKLYN LOFT *;56104;James;Brooklyn;407042;-739356;Ap/Casa inteira;55;3;82;0,7;1;140
+55;14322;Beautiful Apartment in Manhattan!!!;56284;Francesca;Manhattan;4073961;-7398074;Ap/Casa inteira;105;7;19;0,22;1;257
+57;14991;Great Location, Manhattan Bedroom!;59023;Bianca;Manhattan;4072004;-7399104;Quarto Privativo;109;5;19;0,17;1;301
+60;15341;**Bright Nolita Apt w Doorman/Elevators/Gym**;60049;Ted;Manhattan;407221;-7399775;Ap/Casa inteira;100;30;21;0,3;1;154
+61;15385;Very, very cozy place;60252;Cristina;Brooklyn;4071185;-7396204;Quarto Privativo;80;2;42;0,38;1;263
+63;15711;2 bedroom - Upper East Side-great for kids;61491;D;Manhattan;4077065;-7395269;Ap/Casa inteira;65;2;66;0,57;2;231
+65;16338;Double Room w Private Deck Clinton Hill Best Area;63613;Patricia;Brooklyn;;-7396788;Quarto Privativo;98;7;27;0,23;2;292
+72;17037;Lovely EV Artist's Home;66035;Anna;Manhattan;4072162;-7398008;Ap/Casa inteira;77;9;49;0,43;1;116
+73;17092;Cool Room in Hell's Kitchen;66243;Enzo;Manhattan;4076342;-7398865;Quarto Privativo;100;7;23;0,43;1;88
+76;18127;Charming East Village One Bedroom Flat;69829;Josh;Manhattan;4072828;-7398801;Ap/Casa inteira;100;5;21;0,2;1;224
+81;18764;Cozy 2 BR in Williamsburg;72014;Lulú;Brooklyn;4071154;-7396112;Quarto Privativo;68;3;61;0,54;4;238
+82;19159;Spacious luminous apt Upper West NYC;73051;Sybilla;Manhattan;4082915;-7395136;Ap/Casa inteira;71;31;54;0,49;1;209
+83;19169;Entire 2 Bedroom - Large & Sunny;73128;JoLynn;Manhattan;4071851;-7398892;Ap/Casa inteira;60;5;70;0,62;1;328
+84;19282;Sunny, Spacious Top Floor Haven;73469;Gaia;Brooklyn;4065401;-7396323;Ap/Casa inteira;110;6;16;0,15;1;38
+85;19319;Private room Great Deal at Lower East Side;44263;Ana;Manhattan;407114;-7398794;Quarto Privativo;50;30;94;0,84;1;188
+87;19812;2 bedroom Williamsburg Apt - Bedford L stop;74857;Starlee;Brooklyn;4071833;-7395748;Ap/Casa inteira;69;3;61;0,53;1;272
+91;20724;Sunny room+Pvte office in huge loft;961342;Augustin;Brooklyn;4070032;-739383;Quarto Privativo;99;4;24;0,28;1;317
+93;20755;Large Parlor Room, Landmark Home 1 block to PRATT;51038;Erica;Brooklyn;4068634;-73966;Quarto Privativo;110;7;16;0,2;6;185
+94;20853;2-bed brownstone duplex + garden;79070;Tracy;Brooklyn;4068035;-7397162;Ap/Casa inteira;100;7;21;0,3;1;158
+97;21456;Light-filled classic Central Park;42032;Dana;Manhattan;4079764;-7396177;Ap/Casa inteira;55;3;81;0,71;1;198
+98;21644;Upper Manhattan, New York;82685;Elliott;Manhattan;4082803;-7394731;Quarto Privativo;140;1;1;0,11;1;365
+103;23501;Monkey Retreat Manhattan;63318;Meka;Manhattan;4083927;-7394281;Quarto Privativo;65;2;68;0,6;1;312
+108;25406;Modern Brooklyn Apt., August sublet;105538;Erik;Brooklyn;4071459;-7394844;Ap/Casa inteira;95;30;29;0,4;1;222
+110;26012;Sunny 2-story Brooklyn townhouse w deck and garden;109589;Jessica;Brooklyn;4068157;-7398989;Ap/Casa inteira;105;30;19;0,2;1;208
+112;26520;Cozy Room #3, Landmark Home 1 Block to PRATT;51038;Erica;Brooklyn;4068698;-7396572;Quarto Privativo;105;2;19;0,2;6;250
+113;26559;Beautiful Apartment East Village;112793;Sally;Manhattan;407288;-7398192;Ap/Casa inteira;120;7;12;0,13;1;164
+116;26954;NYC fabulous views Manhattan's eye;115157;Nimo;Manhattan;4074294;-7398009;Ap/Casa inteira;85;5;38;0,38;1;260
+118;27006;Comfortable UWS 2-BD Family-Friendly Brownstone;115560;Stacy;Manhattan;4077823;-7397637;Ap/Casa inteira;98;6;27;0,27;1;199
+123;27759;apartment next to Central park;119900;Sylvie;Manhattan;4077842;-7397556;Ap/Casa inteira;120;7;13;0,12;1;224
+125;28321;Large 1 BR in a 3 BR Brooklyn apt. next to Q Trn.;65091;Kay;Brooklyn;4065593;-7396053;Quarto Privativo;125;2;9;0,08;1;324
+126;28396;Modern Apt with Spectacular Views;6197784;Jo;Brooklyn;4071923;-7396468;Quarto Privativo;125;1;9;0,08;1;245
+127;28907;Garden studio in the Upper East Sid;124352;Lisa;Manhattan;40778;-7394822;Ap/Casa inteira;100;5;21;0,19;1;189
+128;29012;Secluded Master Bedroom in Beautiful Huge Apt;124797;Fernando And Lenin;Manhattan;4085879;-7393128;Quarto Privativo;85;15;36;0,33;1;307
+129;29013;B & B Room 1;35935;Angela;Brooklyn;4068332;-739547;Quarto Privativo;68;3;63;0,58;2;310
+132;29683;Stylish & Sleek Apartment Near SoHo!;125857;Uli;Manhattan;4072392;-7399143;Ap/Casa inteira;60;5;73;0,66;1;209
+134;30927;Unique & Charming small 1br Apt. LES;120335;Cs;Manhattan;4071341;-7398856;Ap/Casa inteira;90;3;32;0,29;1;16
+135;31130;Most Central Location!;117287;Lara;Manhattan;4076754;-7398399;Quarto Privativo;75;2;50;0,45;3;234
+136;31555;Luminous Beautiful West Village Studio;135619;Tom;Manhattan;4073442;-7400303;Ap/Casa inteira;99;29;26;0,25;1;12
+137;31902;Sanctuary in East Flatbush;137292;Sunder;Brooklyn;4063188;-7393248;Quarto Privativo;140;2;2;0,02;1;178
+140;32037;Huge Private Floor at The Waverly;116599;Sahr;Brooklyn;406863;-7396765;Quarto Privativo;51;4;84;0,77;3;365
+141;32100;Modern Greenpoint, Brooklyn Apt;138579;Ali+Scott;Brooklyn;4073409;-7395348;Ap/Casa inteira;139;29;3;0,03;1;34
+142;32289;Sun-drenched, artsy modernist 1 BDRM duplex;139612;Elisabeth;Brooklyn;4071561;-7394835;Ap/Casa inteira;125;3;10;0,1;1;280
+146;32969;Light filled Williamsburg Apartment;142833;Katherine;Brooklyn;4071596;-7393938;Ap/Casa inteira;122;3;11;0,11;1;188
+148;33014;NYC Zen;143048;Paula;Manhattan;4072354;-7398295;Ap/Casa inteira;95;3;30;0,28;1;248
+151;35526;Sun Filled Classic West Village Apt;120291;Karen;Manhattan;4073474;-7400101;Quarto Privativo;59;4;79;0,74;1;307
+152;36121;Lg Rm in Historic Prospect Heights;62165;Michael;Brooklyn;4067386;-7396641;Quarto Privativo;125;15;9;0,09;1;339
+154;36442;Great location. Spacious on PROSPECT PARK;137432;Paz;Brooklyn;406741;-7396595;Ap/Casa inteira;135;15;4;0,05;1;269
+155;36647;Private Bdrm/Bathrm. New! Elevator!;157798;Irene;Manhattan;4079295;-7393997;Quarto Privativo;89;2;34;0,32;1;10
+157;36934;Great location in Williamsburg;159370;Viviana;Brooklyn;4071363;-7396398;Ap/Casa inteira;98;6;27;0,25;1;189
+164;40039;Luxurious Condo in DUBMO with View;171851;Henry;Brooklyn;4070207;-7398571;Quarto Privativo;120;3;14;0,13;1;189
+165;40453;Charming & Cozy midtown loft any WEEK ENDS !!!;174025;Sylvia;Manhattan;4076123;-739642;Ap/Casa inteira;130;3;4;0,08;1;365
+174;44212;West Inn 2 - East Village;72062;Bruce;Manhattan;4072518;-7398034;Quarto Privativo;50;1;84;0,78;4;310
+177;44288;Your own Lovely West Village Studio;193637;Sara;Manhattan;4073756;-7400405;Ap/Casa inteira;50;3;86;0,8;1;246
+178;44506;ACCOMMODATIONS GALORE#3. 1-5 GUESTS;126607;Laurine;Manhattan;4081526;-7394791;Ap/Casa inteira;55;3;80;0,75;3;231
+179;45393;Greenwich Village Stylish Apartment;201297;Myrna;Manhattan;4073423;-740046;Ap/Casa inteira;85;26;38;0,36;1;225
+185;46544;Park Slope haven 15 mins from Soho;8198;Monica;Brooklyn;4067994;-7397863;Ap/Casa inteira;75;5;52;0,5;1;18
+187;46911;Large Room in private Brownstone in Park Slope;210746;Kathleen R.;Brooklyn;4067868;-7397307;Quarto Privativo;75;3;51;0,48;3;250
+189;47362;LARGE, COMFY 1BDR W/CHARACTER!!!;214148;Robert;Brooklyn;4068237;-739415;Ap/Casa inteira;95;26;30;0,29;1;364
+191;47926;LUX APT IN TIMES SQUARE NEW BUILDING;218404;Claudia;Manhattan;4076307;-7399665;Ap/Casa inteira;80;1;41;0,38;1;299
+211;55498;Modern comfort in art infused landmark Brownstone;262138;Tami;Brooklyn;406829;-7393549;Quarto Privativo;100;2;23;0,22;1;91
+217;56525;1 Bedroom Loft w/ Private Roof Deck;268014;Alex;Brooklyn;40729;-7395829;Ap/Casa inteira;65;2;69;0,65;1;58
+223;57740;Quiet & Clean Retreat in the City;275459;I;Manhattan;4073012;-7399053;Ap/Casa inteira;130;3;7;0,07;1;351
+227;58062;South Slope Green;277394;Linda;Brooklyn;406585;-7398397;Quarto Privativo;100;2;21;0,26;1;272
+228;58467;17 Flr. Manhattan Views, Nr. Subway;279797;Dave;Manhattan;4076193;-739501;Quarto Privativo;110;7;17;0,3;1;341
+229;59014;Spacious 1BR, Adorable Clean Quiet;282927;Drica;Manhattan;4072052;-7398589;Ap/Casa inteira;80;3;41;0,39;1;244
+231;59642;Franklin St Flat in Trendy Greenpoint Brooklyn;274782;Betty;Brooklyn;4073401;-7395967;Ap/Casa inteira;65;2;69;0,67;1;12
+232;59709;Artistic, Cozy, and Spacious w/ Patio! Sleeps 5;186084;Ricardo & Ashlie;Manhattan;4071756;-7399503;Ap/Casa inteira;110;4;18;0,18;2;265
+235;60457;Spacious Greenwich Village Apt;99212;Jessica;Manhattan;4073194;-7399474;Ap/Casa inteira;125;5;10;0,1;1;91
+238;60673;Private Room/bath Luxurious Harlem;249372;Cynthia;Manhattan;4081583;-7394707;Quarto Privativo;140;2;1;0,11;1;365
+248;62427;Great East Village Apartment Rental;303882;Brie;Manhattan;407268;-7399079;Ap/Casa inteira;70;50;56;0,58;1;56
+254;62903;Beautiful modern studio apartment in heart of NYC;306605;Daniel;Manhattan;4074238;-7399567;Ap/Casa inteira;68;9;62;0,7;2;76
+265;63719;BEDROOM1 FOR RENT 10min from Manhan;311286;Helene;Brooklyn;4068503;-7395385;Quarto Privativo;85;3;36;0,41;4;281
+267;64000;Williamsburg near soho. / loftbed;312722;Kristian & Di;Brooklyn;407069;-7395467;Quarto Privativo;120;17;14;0,14;4;362
+270;64277;BEDROOM2 FOR RENT 10min from Manh;311286;Helene;Brooklyn;4068317;-7394701;Quarto Privativo;110;4;18;0,22;4;189
+273;64707;Amazing Sunny & Breezy Home In the Heart of NYC;7310;Tilly;Manhattan;4071702;-7399811;Ap/Casa inteira;140;14;1;0,16;1;14
+276;65268;Share a HOME - $75 for 1 bdrm/++ for 2 - Brooklyn;319092;Juhli;Brooklyn;4068276;-7395264;Quarto Privativo;67;5;64;0,67;1;68
+278;65562;CHARMING EAST VILLAGE 2 (or 1) BR;320450;Mary D;Manhattan;4072956;-7398158;Ap/Casa inteira;130;7;5;0,15;1;231
+279;65615;Farmhouse Apartment in Williamsburg;320761;Valerie;Brooklyn;4071069;-7395175;Ap/Casa inteira;76;10;49;0,48;1;152
+281;65813;Suite Sugar Hill, Harlem, Private Rm in Hosted Apt;321756;Eric;Manhattan;4082888;-7394307;Quarto Privativo;101;3;20;0,26;1;364
+282;65834;Beautiful 1 Bedroom Apt Park Slope;321934;Jessica;Brooklyn;4067319;-7397323;Ap/Casa inteira;121;2;11;0,11;1;246
+283;66008;CHARMING CARROLL GARDENS APT.;322884;Melissa;Brooklyn;4067846;-7399443;Ap/Casa inteira;75;3;51;0,57;1;288
+287;66451;**Fantastic Williamsburg Apt**;325389;Luis Fernando;Brooklyn;4071031;-739583;Ap/Casa inteira;125;2;9;0,11;1;254
+290;66974;Lovely, Modern, Garden Apartment;329436;Jana;Brooklyn;4068076;-739896;Ap/Casa inteira;64;3;69;0,79;2;258
+291;67288;Central Park 1BR sunny condo;101597;Per;Manhattan;4079603;-7394903;Ap/Casa inteira;100;28;22;0,26;1;103
+292;67299;Cozy Garden Apartment in Williamsburg;330347;Adrienne;Brooklyn;4071492;-7396282;Ap/Casa inteira;70;30;56;0,56;1;42
+295;68305;Cozy Private Room in Apartment;338454;Share;Manhattan;4082976;-7394867;Quarto Privativo;67;30;64;0,68;1;318
+297;68735;Prewar Penthouse w Private Terrace;342054;Violetta;Manhattan;4078971;-739729;Ap/Casa inteira;95;11;30;0,32;1;249
+299;68900;Bright Beautiful Brooklyn;343250;Jason;Brooklyn;4073119;-7395578;Quarto Privativo;130;3;6;0,1;1;325
+301;69894;Nice renovated apt, prime location!;352168;Silvia;Manhattan;;-7398249;Ap/Casa inteira;79;30;48;0,55;1;35
+302;69921;Brooklyn Writer's Nook;155689;Joab;Brooklyn;4070514;-7391922;Quarto Privativo;79;5;47;0,49;1;203
+306;71010;All That Jazz. Uptown style on Sugar Hill.;361855;Kurt;Manhattan;4083494;-7393869;Ap/Casa inteira;90;3;32;0,43;2;276
+307;71248;Bright and lovely 1 bdrm apt in LES;363834;Jennifer;Manhattan;4071659;-7398945;Ap/Casa inteira;80;25;43;0,42;1;102
+308;71366;Beautiful One Bed West Village - 4 Month Special;364955;Ruperto;Manhattan;4072966;-7400243;Ap/Casa inteira;80;30;39;0,44;1;251
+309;71384;Gigantic Private Brooklyn Loft!;365153;Ben;Brooklyn;4072898;-7395552;Ap/Casa inteira;75;1;50;0,5;1;188
+312;72265;Private room in cozy Greenpoint;340692;Vanessa;Brooklyn;4072646;-7395341;Quarto Privativo;95;3;29;0,36;1;15
+313;74073;Food & Music Dream Apartment in Williamsburg;211877;Daniel;Brooklyn;4071015;-7396101;Ap/Casa inteira;69;4;59;0,6;1;71
+314;74240;French Garden cottage off Bedford;389924;Patty;Brooklyn;4071903;-739597;Ap/Casa inteira;65;1;68;0,67;2;215
+315;74333;Alcove Studio w/ outdoor Patio Deck;331328;Amir;Manhattan;4080892;-7393985;Ap/Casa inteira;99;14;26;0,27;3;253
+316;74404;Luxury 3 bed/ 2 bath apt in Harlem w/ terrace;391325;G & S;Manhattan;4080276;-739567;Ap/Casa inteira;94;14;31;0,31;1;78
+322;77765;Superior @ Box House;417504;The Box House Hotel;Brooklyn;4073749;-7395292;Quarto Privativo;85;3;36;0,36;28;79
+323;77936;Hells Kitchen Garden of Eden;134355;Moss Owen;Manhattan;4076248;-739913;Quarto Privativo;85;3;36;0,36;1;49
+326;79782;Williamsburg HUGE, PRIVATE BATH - Next to Train!;430188;Pam;Brooklyn;4070516;-7395455;Quarto Privativo;59;14;76;0,76;6;343
+330;80924;Spacious 3 Bedroom Duplex in Park Slope;438133;Ellis;Brooklyn;4067542;-7398142;Ap/Casa inteira;89;30;34;0,51;2;189
+331;81739;Loft w/ Terrace @ Box House Hotel;417504;The Box House Hotel;Brooklyn;4073842;-7395312;Quarto Privativo;140;3;2;0,02;28;60
+333;82550;Columbia Castle 2 BR;448312;Christopher;Brooklyn;4069441;-7399771;Ap/Casa inteira;55;3;80;0,85;2;106
+337;83446;Ft. Greene garden gem, large and convenient;454756;Leslie;Brooklyn;4068819;-7397258;Ap/Casa inteira;130;35;5;0,05;1;135
+338;83722;Williamsburg penthouse with private roof cabana;456638;Sophie;Brooklyn;407205;-7396015;Ap/Casa inteira;125;30;8;0,11;1;30
+340;84010;Superior @ Box House;417504;The Box House Hotel;Brooklyn;4073813;-7395394;Quarto Privativo;120;3;13;0,14;28;81
+344;85094;Garden 1BR/1BA Brownstone Apt - 2 blocks to subway;322716;Alex;Brooklyn;4066966;-7394735;Ap/Casa inteira;120;15;11;0,11;5;179
+348;93313;MAISON DES SIRENES 2;25183;Nathalie;Brooklyn;4068314;-7393963;Ap/Casa inteira;59;2;75;0,76;2;237
+355;96471;The Brooklyn Waverly, One Bedroom;116599;Sahr;Brooklyn;4068413;-7396542;Quarto Privativo;120;4;11;0,11;3;365
+356;98330;LOVELY APARTMENT IN THE HEART OF NY;31374;Shon;Manhattan;4073877;-7397707;Ap/Casa inteira;149;4;1;0,01;3;181
+357;98663;Groovy NYC Chelsea Pad;520279;Peter Michael;Manhattan;4074893;-7399544;Ap/Casa inteira;107;30;19;0,19;1;189
+359;99085;Sunny Bklyn Jewel Fort Greene JULY - AUG 2019;522164;Wanda;Brooklyn;4068795;-7397332;Ap/Casa inteira;115;30;15;0,15;1;189
+364;102995;UWS Brownstone Near Central Park;178043;Chas;Manhattan;4078558;-739696;Ap/Casa inteira;79;21;45;0,46;1;35
+369;105510;Private 1-Bedroom Apt in Townhouse;322716;Alex;Brooklyn;4067086;-7394872;Ap/Casa inteira;115;30;15;0,16;5;282
+371;106647;Tree lined block modern apartment;552679;Olivia;Brooklyn;4068505;-7395684;Ap/Casa inteira;50;2;86;0,87;1;102
+373;107895;Riverside Charm with Fire Place;3088389;Kai;Manhattan;4077944;-7398567;Ap/Casa inteira;75;5;49;0,56;1;201
+374;110739;Very Central, Nomad/Chelsea Loft Studio;568568;Driss;Manhattan;4074503;-7398876;Ap/Casa inteira;70;18;54;0,57;1;98
+375;112100;Sunny 3BR Apt Ideal for Family;572527;Marine;Brooklyn;4067539;-7396093;Ap/Casa inteira;135;7;3;0,03;1;157
+377;112359;UES Quiet & Spacious 1 bdrm for 4;571952;Olivia;Manhattan;4078491;-739508;Ap/Casa inteira;70;2;56;0,57;1;312
+381;114123;Large Park Slope Townhouse Duplex;579495;Susi;Brooklyn;4066527;-739886;Ap/Casa inteira;98;14;27;0,28;2;223
+382;114229;Lower East Side 2 Bedroom Apt;314941;Tony;Manhattan;4071895;-7399434;Ap/Casa inteira;75;1;52;0,6;3;361
+384;115535;Sun-Drenched Hamilton Hts Jewel;567187;Jane;Manhattan;4082399;-7395328;Quarto Privativo;89;14;35;0,35;1;283
+389;118061;Style in Stuyvesant Heights;2248897;Roberta;Brooklyn;4068448;-7392747;Ap/Casa inteira;60;4;70;0,75;1;283
+390;118430;Heart of Meatpacking & Chelsea;585458;Paul;Manhattan;4074412;-7400208;Quarto Privativo;88;2;35;0,36;1;20
+392;120362;Williamsburg apartment right by the subway;138069;Itamar;Brooklyn;4070665;-7394061;Ap/Casa inteira;75;4;50;0,51;1;331
+393;121687;Spacious Brooklyn Loft - 2 Bedroom;262812;Vikram;Brooklyn;4072063;-7395952;Ap/Casa inteira;95;2;29;0,31;1;36
+397;125163;Authentic New York City Living;622855;Rodney;Brooklyn;4068569;-7393038;Quarto Privativo;83;2;38;0,54;2;307
+401;127387;Luxe, Spacious 2BR 2BA Nr Trains;23276;Katharine;Brooklyn;4066862;-739926;Ap/Casa inteira;135;30;3;0,03;1;316
+408;134934;Prime Williamsburg Apartment;652842;Giovanni;Brooklyn;4071823;-7395849;Ap/Casa inteira;100;10;22;0,38;1;52
+412;136493;Stunning arty 3200sf 3FLR+3BR townhome w/terrace;663384;Irena;Brooklyn;4067632;-7397616;Ap/Casa inteira;110;7;18;0,21;1;18
+417;140973;East Village, King-Sized, Charmer;686147;Dave;Manhattan;4072274;-7397581;Ap/Casa inteira;64;2;69;0,71;1;233
+421;141984;Charming Nolita Apartment!!;630453;Vanessa;Manhattan;4072094;-7399706;Ap/Casa inteira;65;3;68;0,69;1;277
+423;144087;LUXURY OF THE HORIZON;616825;Rinaldo;Manhattan;4080473;-739532;Ap/Casa inteira;110;8;17;0,17;1;343
+428;146754;Three-bedroom house in a quiet neighborhood;709434;Meighan;Brooklyn;4065749;-7397675;Ap/Casa inteira;72;4;52;0,72;1;188
+429;147586;Beautiful Duplex w/Private Garden;709334;Julie;Manhattan;4080474;-7394688;Ap/Casa inteira;60;2;74;0,76;2;264
+439;152078;CHARMING PRIVATE BEDROOM EAST VILLAGE;731904;Ewelina;Manhattan;4072674;-739782;Quarto Privativo;99;7;25;0,3;1;359
+445;154934;Harlem/Hamilton Heights Cozy Room;745069;Kimberly;Manhattan;4082426;-739463;Quarto Privativo;85;3;38;0,42;3;365
+446;155296;Incredible Prime Williamsburg Loft!;656841;Meredith;Brooklyn;4071624;-7396272;Ap/Casa inteira;80;45;39;0,5;1;89
+448;158061;Hancock Town House!-Stuyvesant Mews;758441;Fred;Brooklyn;4068669;-7391989;Quarto Privativo;97;1;27;0,28;4;311
+450;158290;Clinton Hill + Free Coffee = #smile;759583;Pepe;Brooklyn;4068288;-7396024;Quarto Privativo;80;3;43;0,44;2;365
+453;159749;Purple Room for 2/3 in brownstone $1450 per month;54275;JT And Tiziana;Brooklyn;4067963;-7393908;Quarto Privativo;65;1;64;0,68;3;238
+454;159815;Red Room for two in Brownstone for $1355/mo;54275;JT And Tiziana;Brooklyn;406798;-7393908;Quarto Privativo;80;1;39;0,41;3;218
+462;162508;Beautiful Brooklyn Oasis;776645;Placid;Brooklyn;4067212;-739506;Ap/Casa inteira;95;2;29;0,35;1;119
+464;163809;Cool & Spacious Harlem Artist Flat;781647;Jorin;Manhattan;4080523;-7395139;Ap/Casa inteira;80;5;42;0,44;2;234
+467;164989;*SoHo: Clean, Safe, Private, Peaceful Bedroom (A)*;69439;Jade;Manhattan;4072351;-7399683;Quarto Privativo;70;2;54;0,56;1;221
+469;165461;Couldn't Be Closer To Columbia Uni2;867225;Rahul;Manhattan;4080525;-7395916;Quarto Privativo;70;5;57;0,59;2;201
+473;166541;Spacious Quiet rm - 20mins to Midtown;793620;Yvette;Manhattan;4084468;-7394303;Quarto Privativo;89;2;34;0,35;1;222
+475;167013;Spacious modern studio apartment in Manhattan;306605;Daniel;Manhattan;4074342;-7399483;Ap/Casa inteira;135;9;3;0,04;2;76
+477;167222;CBG# 4Tiny room w/ huge window/AC;22486;Lisel;Brooklyn;406788;-7397643;Quarto Privativo;105;1;20;0,21;6;258
+481;168546;Spacious Duplex in Brownstone!;803086;Benton;Manhattan;4080113;-7394503;Ap/Casa inteira;120;2;11;0,12;2;68
+482;168810;Lovely Vintage Haven—Heart of UWS;747698;Linda & Chris;Manhattan;4078569;-7397581;Ap/Casa inteira;120;65;11;0,12;1;358
+483;169002;Modern Space in Charming Pre-war;805344;Alec;Manhattan;4082411;-7394934;Quarto Privativo;80;2;41;0,43;2;59
+486;169464;Creative Vintage Loft in S. Williamsburg;806774;Ali & SweetPea;Brooklyn;4070667;-7396524;Ap/Casa inteira;50;2;86;0,89;2;15
+489;170761;Fort Greene, Brooklyn: Front Bedroom;67778;Doug;Brooklyn;4068768;-7397611;Quarto Privativo;85;2;35;0,55;2;161
+490;171776;Gorgeous 1 bdrm in huge duplex!;803086;Benton;Manhattan;4080224;-7394558;Quarto Privativo;110;2;17;0,18;2;88
+491;172700;Sunny, cozy room in Lower East Side;302772;Cheryl;Manhattan;4071473;-7398842;Quarto Privativo;135;3;3;0,04;2;337
+492;172870;Large Quiet Bedroom Near Columbia U;781647;Jorin;Manhattan;4080518;-7395359;Quarto Privativo;79;5;43;0,47;2;247
+498;176135;Cosy Sunny 1brm in Prospect Heights;842125;Jennifer;Brooklyn;4067505;-7395969;Ap/Casa inteira;91;3;31;0,32;1;193
+499;176653;East Village bedroom w rooftop;844862;Cj;Manhattan;4072974;-7398201;Quarto Privativo;75;4;49;0,51;2;43
+500;176962;Williamsburg Home Away From Home!;846309;Dani;Brooklyn;4070925;-7395425;Ap/Casa inteira;100;4;23;0,24;1;25
+505;179741;Spring & Mulberry 2 Bedroom Apartment;314941;Tony;Manhattan;4072133;-7399666;Ap/Casa inteira;130;1;6;0,06;3;115
+510;182095;Historic classic central cozy Village clean NYU;872805;Mike;Manhattan;4073631;-7399977;Ap/Casa inteira;65;15;66;0,69;2;89
+514;187488;WEST VILLAGE LRG CLEAN SUNNY PRIVATE BDRM;871727;Village;Manhattan;4073712;-7400166;Quarto Privativo;130;30;5;0,07;1;359
+518;188661;Large, sunny garden apartment.;909146;Mj;Brooklyn;4068262;-7397299;Ap/Casa inteira;65;3;67;0,7;1;129
+521;189181;Room in Chic Modern High Line Luxury- New!;912541;David;Manhattan;4074695;-7400454;Quarto Privativo;145;4;1;0,02;1;365
+524;190267;Large Luxury Upper East Side Studio;918866;Marina;Manhattan;4076684;-7395944;Ap/Casa inteira;80;7;39;0,41;1;44
+525;190542;Chateau Style Brooklyn Loft for Singles or Couples;920542;Farrah;Brooklyn;4068967;-7395445;Ap/Casa inteira;80;3;42;0,44;1;355
+526;190968;Lovely Brooklyn Brownstone 1BR!;922922;Karen;Brooklyn;4067946;-7396501;Ap/Casa inteira;89;3;33;0,35;1;156
+528;191075;Sun-drenched East Village Penthouse;923915;Matthew;Manhattan;4072566;-7397748;Quarto Privativo;55;3;81;0,85;2;274
+529;193105;Columbus Circle Luxury Bldg - Private Room&Bath;936114;Marcela;Manhattan;407709;-7399181;Quarto Privativo;79;28;43;0,45;2;258
+530;193333;Bright Private Bedroom in Williamsburg (Bedford L);302936;Melody;Brooklyn;4071943;-7395958;Quarto Privativo;75;30;52;0,54;1;276
+533;194154;Large Room Overlooking Central Park;936830;Elina;Manhattan;407969;-7396128;Quarto Privativo;85;6;35;0,37;1;180
+544;199195;Modern Bedroom in Hamilton Heights;971075;Jabari;Manhattan;4082922;-7394174;Quarto Privativo;75;3;50;0,65;2;38
+547;200955;STYLISH EAST VILLAGE FLAT;568325;Simone;Manhattan;4073089;-7398195;Ap/Casa inteira;99;30;25;0,26;1;46
+551;204065;St. James Pl Garden Studio 1block to PRATT &Gtrain;51038;Erica;Brooklyn;4068634;-7396161;Ap/Casa inteira;70;2;58;0,61;6;199
+552;204833;Great, spacious apt in Williamsburg;903686;Melanie;Brooklyn;407093;-739497;Quarto Privativo;125;6;8;0,09;1;249
+560;206772;Williamsburg Exposed Brick Loft;1017473;Evan;Brooklyn;4071413;-7396596;Ap/Casa inteira;90;14;31;0,33;1;263
+563;208889;Welcome to Brooklyn! Bed-Stuy;1029021;Jameelah;Brooklyn;4069025;-7393323;Ap/Casa inteira;95;3;30;0,32;3;11
+567;212109;2-bedroom share in heart of Greenwich Village!;666271;Susan;Manhattan;4073854;-7400821;Quarto Privativo;125;90;9;0,2;1;338
+575;215907;2 Bed, 2 Bath Apartment on Central Park West;1114587;Keenan & Emily;Manhattan;4079816;-739619;Ap/Casa inteira;79;2;45;0,47;3;31
+576;217580;Luxury Furnished 1 bedro, Bay Ridge;1121193;Samuel;Brooklyn;4061927;-740307;Ap/Casa inteira;130;30;7;0,08;1;241
+577;218358;Your Haven in the Upper West Side;1129218;Orlando;Manhattan;408078;-7395208;Quarto Privativo;105;7;19;0,35;1;285
+578;219066;Wonderful Studio In Brooklyn, NY!!!;447754;Yana;Brooklyn;4061922;-7399399;Ap/Casa inteira;99;1;24;0,26;1;183
+579;219482;A Cozy Brooklyn Hideaway;759583;Pepe;Brooklyn;4068275;-7396148;Ap/Casa inteira;125;4;8;0,09;2;189
+580;219793;??? COUNTRY COTTAGE IN THE CITY???;1138692;Keera (Jena);Manhattan;4071813;-7398416;Ap/Casa inteira;95;1;29;0,31;2;162
+581;219818;??? COUNTRY COTTAGE IN THE CITY???;1138692;Keera (Jena);Manhattan;4071892;-7398401;Ap/Casa inteira;116;1;14;0,15;2;158
+582;219922;Lovely Bdr in Harlem, Manhattan;1139574;Carmel;Manhattan;40816;-7395545;Quarto Privativo;89;1;33;0,38;1;84
+587;221097;Large Artist Floorthru- Greenpoint;1146744;Deborah;Brooklyn;4072595;-7395298;Ap/Casa inteira;100;29;22;0,23;1;335
+588;221618;Gorgeous PermaGO Private Room in FiDi - 1/2;4887492;Gershwyn;Manhattan;4071193;-7400817;Quarto Privativo;52;3;82;0,87;2;90
+589;222054;CBG Helps Haiti Rm #3;22486;Lisel;Brooklyn;4068012;-7397847;Quarto Privativo;100;2;23;0,24;6;342
+590;222304;BEST DEAL IN CHELSEA 1 bdrm NYC;1153993;Anton;Manhattan;4074233;-7399865;Ap/Casa inteira;90;4;32;0,34;1;28
+591;223930;Lovely Apartment;1164642;Rosalynn;Brooklyn;4067424;-7396665;Ap/Casa inteira;99;5;24;0,25;1;363
+592;224004;Artsy Loft-like Harlem Apartment;1165231;Deirdre;Manhattan;4080486;-7395298;Quarto Privativo;69;1;59;0,63;2;86
+593;224006;Harlem/Manhattan Classic Apartment;1165231;Deirdre;Manhattan;4080307;-7395048;Quarto Privativo;130;55;6;0,08;2;83

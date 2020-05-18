@@ -3,7 +3,6 @@ require(RColorBrewer)
 require(openxlsx)
 
 
-setwd("C:/Users/Claudio/OneDrive/CienciaDados/EstatisticaPredicao/Bases")
 titanic <- read.csv("Titanic.csv", header = TRUE, sep = ";", stringsAsFactors = FALSE, dec = ",")
 
 titanic$sobrevivente <- as.factor(titanic$sobrevivente)

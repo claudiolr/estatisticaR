@@ -1,26 +1,49 @@
 library(openxlsx)
 require(tidyverse)
 require(RColorBrewer)
+require(knitr)
 
 
 ###########################################################################
 # Exercício 1 -------------------------------------------------------------
 ###########################################################################
 
-setwd("C:/Users/Claudio/OneDrive/CienciaDados/EstatisticaPredicao/Bases")
-cardio <- read.xlsx("DoencaCardiaca.xlsx")
+cardio <- read.csv("DoencaCardiaca.csv", sep = ";", dec = ",")
+
+colnames(cardio) = c("id",
+                     "idade",
+                     "sexo",
+                     "IMC",
+                     "ccintura",
+                     "cquadril",
+                     "freqCardiaca",
+                     "fumo",
+                     "ativFisica",
+                     "stress",
+                     "pDiastolica",
+                     "doencaCardiaca")
+
+
+cardio <- cardio %>% 
+        mutate(sexo = as.factor(sexo),
+               fumo = as.factor(fumo)) %>% 
+        arrange(stress) %>% 
+        mutate(stress = as.factor(stress),
+               doencaCardiaca = as.factor(doencaCardiaca))
 
 
 ### II: realize uma análise descritiva de cada variável
 # Idade
-ggplot(cardio, aes(x = Idade)) +
-     geom_histogram(breaks = seq(16, 63, by=2),
-                    col = "white",
-                    alpha = 1) + 
-     labs(title = "Histograma de idade",
-          x = "Idade", y = "Frequência") + 
-     theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
-           legend.text = element_text(size = 11), axis.text.x = element_text(size = 11))
+cardio %>% 
+        ggplot(aes(x = idade)) +
+        geom_histogram(breaks = seq(16, 63, by=2),
+                       col = "white",
+                       alpha = 1) + 
+        geom_smooth(method = "") +
+        labs(title = "Histograma de idade",
+             x = "Idade", y = "Frequência") + 
+        theme(legend.title = element_blank(), plot.title = element_text(hjust = 0.5, size = 17),
+              legend.text = element_text(size = 11), axis.text.x = element_text(size = 11))
 
 summary(cardio$Idade)
 
@@ -134,17 +157,19 @@ cor(cardio[, c(2, 4:7, 9, 11)]) # gera a matriz de correlação das variáveis q
 
 ### IV: 
 # Modelo com todas as variáveis
-modelo1 <- lm(cardio$pdiasto ~ cardio$Idade+cardio$Sexo+cardio$IMC+cardio$ccintura+cardio$cquadril+cardio$frqCardiaca+
-                   cardio$fumo+cardio$atvFisica+cardio$stress+cardio$pdiasto)
+modelo1 <- lm(pDiastolica ~ idade + sexo + IMC + ccintura + cquadril + freqCardiaca + fumo + ativFisica + stress, data = cardio)
 summary(modelo1)
+writeanova(modelo1) %>% knitr::kable()
 
 # a função step indica quais variáveis devem ser usadas no modelo (utilizar em 'scale' o residual standard error fornecido no summary)
 step(modelo1, direction = "both", scale = 11.36^2)
 
 
 # Modelo com as variáveis significativas
-modelo2 <- lm(cardio$pdiasto ~ cardio$Idade+cardio$Sexo+cardio$IMC+cardio$frqCardiaca)
+modelo2 <- lm(pDiastolica ~ idade + sexo + IMC + freqCardiaca, data = cardio)
 summary(modelo2)
+anova(modelo2) %>% kable()
+
 par(mfrow = c(2,2))
 plot(modelo2, which = c(1:4), pch = 20)
 

@@ -310,7 +310,7 @@ modelo2 <- glm(cardio$doencaCardiaca ~ cardio$sexo + cardio$stress + cardio$pDia
 
 ```
 
-$$Y = 0,00000038 + 4,044(masculino) + 0,26(stress1) + 0,88(stress2) + 0,26(stress3) + 0,31(stress4) + 0,21(pdiastolica)$$  
+$$Y = -14.7830382 + 1.3973162(masculino) - 1.3617477(stress1) - 0.1259087(stress2) - 1.3552775(stress3) - 1.1686331(stress4) + 0.1942201(pdiastolica)$$  
 
 ***
 
